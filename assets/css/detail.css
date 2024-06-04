@@ -1,0 +1,114 @@
+#detail-book-container{
+    margin-top: 70px;
+    width: 100vw;
+}
+
+#detail-book-container .content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 21px;
+}
+#detail-book-container .content .detail-book-wrapper{
+    width: 90%;
+    display: flex;
+    padding: 14px;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.1);
+}
+
+#detail-book-container .content .detail-book-wrapper .left{
+    position: sticky;
+    top: 300px;
+    padding: 7px;
+    width: 25%;
+}
+
+#detail-book-container .content .detail-book-wrapper .left div:nth-child(2){
+    margin-top: 21px;
+}
+#detail-book-container .content .detail-book-wrapper .left div:nth-child(2) span{
+    display: block;
+    background-color: aliceblue;
+    padding: 7px 0;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+#detail-book-container .content .detail-book-wrapper .left div:nth-child(2) span:hover{
+    background-color: #5D94FF;
+}
+
+#detail-book-container .content .detail-book-wrapper .card{
+    width: 250px;
+    background-color: aliceblue;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+    box-shadow: 8px 8px 5px #efefef, -8px -8px 5px #FFFFFF;
+}
+#detail-book-container .content .detail-book-wrapper .card img{
+    width: 90%;
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+#detail-book-container .content .detail-book-wrapper .middle{
+    width: 50%;
+    margin: 0 21px;
+}
+#detail-book-container .content .detail-book-wrapper .middle .book-author{
+    font-size: 14px;
+    color: #525252;
+}
+#detail-book-container .content .detail-book-wrapper .middle .book-title{
+    color: #000;
+    font-size: 21px;
+}
+#detail-book-container .content .detail-book-wrapper .middle .desc{
+    margin-top: 14px;
+    font-size: 17px;
+    color: #525252;
+    text-align: justify;
+}
+#detail-book-container .content .detail-book-wrapper .middle .desc hr{
+    display: inline-block;
+    width: 100%;
+    margin: 7px 0 14px;
+}
+#detail-book-container .content .detail-book-wrapper .middle .desc p{
+    font-size: 14px;
+}
+
+#detail-book-container .content .detail-book-wrapper .right{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+#detail-book-container .content .detail-book-wrapper .right .detail-book-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 21px;
+}
+#detail-book-container .content .detail-book-wrapper .right .detail-book-contents li{
+    font-size: 14px;
+    color: #525252;
+    cursor: pointer;
+    padding: 7px 2px;
+    border-bottom: 1px solid #000;
+}
