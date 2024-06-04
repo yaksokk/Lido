@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 :root {
     --black: #000;
     --aliceBlue: #F0F8FF;
@@ -14,6 +16,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 
 .navbar {
     position: fixed;
@@ -26,6 +32,7 @@
     left: 0;
     right: 0;
     z-index: 999;
+    height: 70px;
 }
 
 .navbar .logo {
@@ -33,6 +40,23 @@
     font-size: 24px;
     font-weight: 700;
     font-style: italic;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    color: #FFF;
+    gap: 21px;
+}
+
+.navbar .navbar-nav a {
+    display: block;
+    color: #FFF;
+    font-size: 21px;
+}
+
+.navbar .navbar-nav a:hover {
+    display: block;
+    color: var(--lightBlue);
 }
 
 .navbar .search-form {
@@ -77,4 +101,72 @@
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
+}
+
+.footer {
+    background-color: var(--black);
+    padding: 7px 20px;
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+
+#list-books-container .books-list-wrapper,
+#home .books-list {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    overflow-x: auto;
+    padding: 21px;
+}
+
+#list-books-container .books-list-wrapper .card,
+#home .books-list .card {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background: var(--aliceBlue);
+    box-shadow: 8px 8px 5px #efefef,
+    -8px -8px 5px #FFFFFF;
+}
+
+#list-books-container .books-list-wrapper .card .card-body,
+#home .books-list .card .card-body {
+    margin-top: 10px;
+}
+
+#list-books-container .books-list-wrapper .card img,
+#home .books-list .card img {
+    aspect-ratio: 4/5;
+    object-fit: fill;
+    width: 90%;
+    box-shadow: 3px 3px 5px #e0e0e0,
+    -3px -3px 5px #e0e0e0;
+}
+
+#list-books-container .books-list-wrapper .card .card-author,
+#home .books-list .card .card-author {
+    font-size: 12px;
+    color: #525252;
+}
+
+#list-books-container .books-list-wrapper .card .card-title,
+#home .books-list .card .card-title {
+    color: #000;
+    font-size: 17px;
+    margin-top: 7px;
 }
