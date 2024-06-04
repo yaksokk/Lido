@@ -5,82 +5,10 @@
     --lightBlue: #5D94FF;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    scroll-behavior: smooth;
-}
-
 body {
     overflow-x: hidden;
 }
 
-.navbar {
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    background-color: var(--black);
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-}
-
-.navbar .logo {
-    color: var(--lightBlue);
-    font-size: 24px;
-    font-weight: 700;
-    font-style: italic;
-}
-
-.navbar .search-form {
-    display: flex;
-    align-items: center;
-    background-color: var(--aliceBlue);
-    width: 400px;
-    padding: 0 7px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-}
-
-.navbar .search-form input {
-    height: 100%;
-    width: 100%;
-    color: #000;
-    font-size: 17px;
-    border: none;
-    background: none;
-    padding: 7px;
-}
-
-.navbar .search-form input:focus {
-    outline: none;
-}
-
-.navbar .search-form label {
-    cursor: pointer;
-    font-size: 20px;
-}
-
-.navbar .menu a {
-    color: #FFF;
-    background-color: var(--lightBlue);
-    padding: 7px 14px;
-    margin-right: 7px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-}
 
 .hero {
     height: 100vh;
@@ -101,7 +29,7 @@ body {
     gap: 16px;
 }
 
-#books .content-books .kategori-list li a{
+#books .content-books .kategori-list li a {
 
     color: #000;
 }
@@ -154,18 +82,18 @@ body {
     background: var(--aliceBlue);
     box-shadow: 8px 8px 5px #efefef,
         -8px -8px 5px #FFFFFF;
-    }
-    
-    #books .books-list .card .card-body {
-        margin-top: 10px;
-    }
-    
-    .books .books-list .card img {
-        aspect-ratio: 4/5;
-        object-fit: fill;
-        width: 150px;
-        box-shadow:  3px 3px 5px #e0e0e0,
-             -3px -3px 5px #e0e0e0;
+}
+
+#books .books-list .card .card-body {
+    margin-top: 10px;
+}
+
+.books .books-list .card img {
+    aspect-ratio: 4/5;
+    object-fit: fill;
+    width: 150px;
+    box-shadow: 3px 3px 5px #e0e0e0,
+        -3px -3px 5px #e0e0e0;
 
 }
 
@@ -173,6 +101,7 @@ body {
     font-size: 12px;
     color: #525252;
 }
+
 #books .books-list .card .card-title {
     font-size: 17px;
     margin-top: 7px;
