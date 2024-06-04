@@ -104,6 +104,10 @@ body {
     -o-border-radius: 7px;
 }
 
+.navbar .menu .profile{
+    display: none;
+}
+
 .footer {
     background-color: var(--black);
     padding: 7px 20px;
