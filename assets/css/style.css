@@ -41,6 +41,7 @@ body {
     font-size: 24px;
     font-weight: 700;
     font-style: italic;
+    cursor: pointer;
 }
 
 .navbar .navbar-nav {
@@ -60,7 +61,7 @@ body {
     color: var(--lightBlue);
 }
 
-.navbar .search-form {
+.navbar .search {
     display: flex;
     align-items: center;
     background-color: var(--aliceBlue);
@@ -73,7 +74,7 @@ body {
     -o-border-radius: 7px;
 }
 
-.navbar .search-form input {
+.navbar .search input {
     height: 100%;
     width: 100%;
     color: #000;
@@ -83,17 +84,18 @@ body {
     padding: 7px;
 }
 
-.navbar .search-form input:focus {
+.navbar .search input:focus {
     outline: none;
 }
 
-.navbar .search-form label {
-    cursor: pointer;
-    font-size: 20px;
-}
 
-.navbar .menu a {
+
+.navbar .menu a:hover {
+    background-color: var(--blue);
     color: #FFF;
+}
+.navbar .menu a {
+    color: #000;
     background-color: var(--lightBlue);
     padding: 7px 14px;
     margin-right: 7px;
@@ -110,12 +112,13 @@ body {
 
 .footer {
     background-color: var(--black);
-    padding: 7px 20px;
+    padding: 14px 0;
     text-align: center;
     color: #FFF;
     font-size: 14px;
     font-weight: 700;
     font-style: italic;
+    margin-top: 35px;
 }
 
 
