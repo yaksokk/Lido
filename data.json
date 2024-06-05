@@ -1,0 +1,59 @@
+{
+  "books": [{
+      "title": "Berani Tidak Disukai",
+      "authors": ["Ichiro Kishimi", "Fumitake Koga"],
+      "publishedYear": 2018,
+      "category": "Self Help",
+      "image": "../img/books/berani-tidak-disukai.jpg"
+    },
+    {
+      "title": "Atomic Habits",
+      "authors": ["James Clear"],
+      "publishedYear": 2018,
+      "category": "Self Help",
+      "image": "./src/app/img/books/atomic-habits/jpg"
+    },
+    {
+      "title": "Becoming",
+      "authors": ["Michelle Obama"],
+      "publishedYear": 2018,
+      "category": "Memoir",
+      "image": "assets/img/books/berani-tidak-disukai.jpg"
+    },
+    {
+      "title": "Sapiens: A Brief History of Humankind",
+      "authors": ["Yuval Noah Harari"],
+      "publishedYear": 2015,
+      "category": "History",
+      "image": "assets/img/books/berani-tidak-disukai.jpg"
+    },
+    {
+      "title": "The Alchemist",
+      "authors": ["Paulo Coelho"],
+      "publishedYear": 1993,
+      "category": "Fiction",
+      "image": "assets/img/books/berani-tidak-disukai.jpg"
+    },
+    {
+      "title": "1984",
+      "authors": ["George Orwell"],
+      "publishedYear": 1950,
+      "category": "Fiction",
+      "image": "assets/img/books/berani-tidak-disukai.jpg"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "authors": ["Harper Lee"],
+      "publishedYear": 2006,
+      "category": "Fiction",
+      "image": "assets/img/books/berani-tidak-disukai.jpg"
+    },
+    {
+      "title": "Thinking, Fast and Slow",
+      "authors": ["Daniel Kahneman"],
+      "publishedYear": 2013,
+      "category": "Psychology",
+      "image": "assets/img/books/berani-tidak-disukai.jpg"
+    }
+  ]
+}
