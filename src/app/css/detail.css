@@ -39,6 +39,9 @@
     margin-top: 14px;
     cursor: pointer;
 }
+#detail-book-container .content .detail-book-wrapper .left div:nth-child(2) span a{
+    color: #000;
+}
 #detail-book-container .content .detail-book-wrapper .left div:nth-child(2) span:hover{
     background-color: #5D94FF;
 }
