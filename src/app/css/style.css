@@ -106,7 +106,9 @@ body {
     -o-border-radius: 7px;
 }
 
-.navbar .menu .profile{
+/* .navbar .menu .profile, */
+.navbar .menu .login,
+.navbar .menu .signup{
     display: none;
 }
 
@@ -132,7 +134,7 @@ body {
     overflow-x: auto;
     padding: 21px;
 }
-
+.container-dibaca .card,
 #list-books-container .books-list-wrapper .card,
 #home .books-list .card {
     width: 300px;
@@ -152,26 +154,30 @@ body {
     -8px -8px 5px #FFFFFF;
 }
 
-#list-books-container .books-list-wrapper .card .card-body,
-#home .books-list .card .card-body {
-    margin-top: 10px;
-}
-
-#list-books-container .books-list-wrapper .card img,
-#home .books-list .card img {
-    aspect-ratio: 4/5;
-    object-fit: fill;
-    width: 90%;
-    box-shadow: 3px 3px 5px #e0e0e0,
-    -3px -3px 5px #e0e0e0;
-}
-
-#list-books-container .books-list-wrapper .card .card-author,
-#home .books-list .card .card-author {
-    font-size: 12px;
-    color: #525252;
-}
-
+    .container-dibaca .card .card-body,
+    #list-books-container .books-list-wrapper .card .card-body,
+    #home .books-list .card .card-body {
+        margin-top: 10px;
+    }
+    
+    .container-dibaca .card img,
+    #list-books-container .books-list-wrapper .card img,
+    #home .books-list .card img {
+        aspect-ratio: 4/5;
+        object-fit: fill;
+        width: 90%;
+        box-shadow: 3px 3px 5px #e0e0e0,
+        -3px -3px 5px #e0e0e0;
+    }
+    
+    .container-dibaca .card .card-author,
+    #list-books-container .books-list-wrapper .card .card-author,
+    #home .books-list .card .card-author {
+        font-size: 12px;
+        color: #525252;
+    }
+    
+    .container-dibaca .card .card-title,
 #list-books-container .books-list-wrapper .card .card-title,
 #home .books-list .card .card-title {
     color: #000;
