@@ -19,98 +19,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
-}
-
-
-.navbar {
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    background-color: var(--black);
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999;
-    height: 70px;
-}
-
-.navbar .logo {
-    color: var(--lightBlue);
-    font-size: 24px;
-    font-weight: 700;
-    font-style: italic;
-    cursor: pointer;
-}
-
-.navbar .navbar-nav {
-    display: flex;
-    color: #FFF;
-    gap: 21px;
-}
-
-.navbar .navbar-nav a {
-    display: block;
-    color: #FFF;
-    font-size: 21px;
-}
-
-.navbar .navbar-nav a:hover {
-    display: block;
-    color: var(--lightBlue);
-}
-
-.navbar .search {
-    display: flex;
-    align-items: center;
     background-color: var(--aliceBlue);
-    width: 400px;
-    padding: 0 7px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
 }
 
-.navbar .search input {
-    height: 100%;
-    width: 100%;
-    color: #000;
-    font-size: 17px;
-    border: none;
-    background: none;
-    padding: 7px;
-}
-
-.navbar .search input:focus {
-    outline: none;
-}
-
-
-
-.navbar .menu a:hover {
-    background-color: var(--blue);
-    color: #FFF;
-}
-.navbar .menu a {
-    color: #000;
-    background-color: var(--lightBlue);
-    padding: 7px 14px;
-    margin-right: 7px;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-}
-
-/* .navbar .menu .profile, */
-.navbar .menu .login,
-.navbar .menu .signup{
-    display: none;
-}
 
 .footer {
     background-color: var(--black);
@@ -121,66 +32,81 @@ body {
     font-weight: 700;
     font-style: italic;
     margin-top: 35px;
+    width: 100%;
+    position: relative;
 }
 
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.content {
+    width: 90vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 21px;
+    background-color: #FFF;
+    border-radius: 14px;
+    box-shadow: 1px 1px 8px 0 grey
+}
 
+.content h1 {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
 
-#list-books-container .books-list-wrapper,
-#home .books-list {
+.list {
     display: flex;
     align-items: center;
     gap: 21px;
     overflow-x: auto;
     padding: 21px;
+    margin-top: 28px;
+    flex-wrap: wrap;
 }
-.container-dibaca .card,
-#list-books-container .books-list-wrapper .card,
-#home .books-list .card {
-    width: 300px;
-    padding: 20px;
+
+.card {
+    width: 150px;
+    height: 225px;
+    padding: 14px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
     background: var(--aliceBlue);
     box-shadow: 8px 8px 5px #efefef,
-    -8px -8px 5px #FFFFFF;
+        -8px -8px 5px #FFFFFF;
 }
 
-    .container-dibaca .card .card-body,
-    #list-books-container .books-list-wrapper .card .card-body,
-    #home .books-list .card .card-body {
-        margin-top: 10px;
-    }
-    
-    .container-dibaca .card img,
-    #list-books-container .books-list-wrapper .card img,
-    #home .books-list .card img {
-        aspect-ratio: 4/5;
-        object-fit: fill;
-        width: 90%;
-        box-shadow: 3px 3px 5px #e0e0e0,
+.card .card-body {
+    margin-top: 10px;
+}
+
+.card img {
+    aspect-ratio: 4/5;
+    object-fit: fill;
+    width: 90%;
+    box-shadow: 3px 3px 5px #e0e0e0,
         -3px -3px 5px #e0e0e0;
-    }
-    
-    .container-dibaca .card .card-author,
-    #list-books-container .books-list-wrapper .card .card-author,
-    #home .books-list .card .card-author {
-        font-size: 12px;
-        color: #525252;
-    }
-    
-    .container-dibaca .card .card-title,
-#list-books-container .books-list-wrapper .card .card-title,
-#home .books-list .card .card-title {
+}
+
+.card .card-author {
+    font-size: 8px;
+    color: #525252;
+}
+
+.card .card-title {
     color: #000;
-    font-size: 17px;
+    font-size: 10px;
     margin-top: 7px;
 }

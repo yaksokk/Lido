@@ -1,46 +1,95 @@
-#list-books-container{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+    --black: #000;
+    --aliceBlue: #F0F8FF;
+    --blue: #0057FF;
+    --lightBlue: #5D94FF;
+}
+
+#list-books {
     margin-top: 70px;
     width: 100vw;
+    min-height: 100vh;
+    padding: 21px;
 }
 
-#list-books-container .content{
-    height: 100%;
-    width: 100%;
-    padding-top: 21px;
-}
-#list-books-container .content h1{
-    font-size: 48px;
-    text-align: center;
-}
-
-#list-books-container .content .container-category{
-    margin: 7px 21px;
-}
-#list-books-container .content .categories{
+#list-books .filter {
+    position: relative;
+    width: 80%;
     display: flex;
-    gap: 21px;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
 }
-#list-books-container .content .categories li{
-    margin-top: 7px;
-    border: 1.5px solid #000;
+
+#list-books .container .filter span {
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+#list-books .container .filter .filter-menu {
+    display: flex;
+    gap: 14px;
+    background-color: var(--aliceBlue);
+    padding: 3px 7px;
     border-radius: 7px;
-    padding: 7px 14px;
-}
-#list-books-container .content .categories li a{
-    color: #000;
-}
-#list-books-container .content .categories li:hover{
-    background-color: var(--lightBlue);
 }
 
-
-#list-books-container .content .container-category{
-    margin-top: 10px;
-}
-
-#list-books-container .books-list-wrapper{
+#list-books .container .filter-menu li {
+    border-radius: 7px;
+    padding: 3px 7px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
 }
+
+#list-books .container .filter-menu li:hover,
+#list-books .container .filter-menu li:focus{
+    background-color: #FFF;
+}
+
+#list-books .container .filter-menu li a {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+#list-books .search {
+    width: 50%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: var(--aliceBlue);
+    padding: 0 7px;
+    border-radius: 7px;
+}
+
+#list-books .search i{
+    color: #d3d3d3;
+}
+#list-books .search input {
+    height: 100%;
+    width: 100%;
+    color: #000;
+    font-size: 17px;
+    border: none;
+    background: none;
+    padding: 7px;
+}
+
+#list-books .search input:focus {
+    outline: none;
+}
+
+#list-books .container .books-list-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+#list-books .container .books-list-wrapper .list{
+    margin-top: 0;
+    justify-content: center;
+}
+
