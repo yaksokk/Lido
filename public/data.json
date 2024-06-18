@@ -1,0 +1,69 @@
+{
+    "books": [{
+            "id": 1,
+            "image": "/assets/img/books/berani-tidak-disukai.jpg",
+            "name": "Berani Tidak Disukai",
+            "bookAuthor": "Ichiro Kishimi and Fumitake Koga",
+            "category" : "Self Improvment",
+            "penerbit": "Gramedia Pustaka Utama",
+            "tahunTerbit": 2019,
+            "bahasa": "Indonesia",
+            "halaman": 350,
+            "pdf":"/assets/pdf/Berani Tidak Disukai.pdf",
+            "bookDescription": "Berani Tidak Disukai memiliki judul asli \"The Courage to be Disliked: How to Free Yourself, Change Your Life and Achieve Real Happiness\". Buku karangan Ichiro Kishimi dan Fumitake Koga ini telah terjual sebanyak lebih dari 3,5 juta eksemplar. Buku ini laris di pasaran hingga diterjemahkan ke dalam berbagai bahasa, salah satunya bahasa Indonesia. Berani Tidak Disukai merupakan buku yang berisikan dialog antara seorang filsuf dengan seorang pemuda. Dialog yang dilakukan selama lima malam ini, berisi percakapan dari seorang pemuda yang tidak puas dengan kehidupannya dan seorang filsuf yang mengajarkannya tentang bagaimana cara mendapatkan kebahagiaan di dunia. Dialog-dialog tersebut dibingkai menjadi lima percakapan yang tiap percakapannya memuat satu inti menarik tentang hidup.\n\nDalam buku ini, pembaca akan merasakan bahwa seluruh rangkaian kata yang ada di dalamnya seperti sebuah kutipan. Hampir semuanya berisikan makna indah dan membuat pembaca berpikir tentang bagaimana cara untuk berubah menjadi lebih baik. Berani Tidak Disukai membantu para pembaca untuk menggali kekuatan di dalam dirinya sebagai bekal meraih kebahagiaan yang diinginkan. Ada banyak hal baru yang akan membuat pembaca sadar bahwa beberapa hal seharusnya tidak dilakukan saat ini karena hal tersebut bisa saja menghambat kebahagiaan pada masa depan.\n\nSalah satu contohnya adalah mengenang trauma masa lalu dan menjadikan kehidupan orang lain sebagai standar kebahagiaan. Setelah membaca buku ini, pikiran pembaca menjadi semakin terbuka pada langkah baru untuk mengubah hidup menjadi lebih baik lewat tindakan berani untuk tidak disukai oleh orang lain. Bagian menarik dari buku ini ialah ketika seorang filsuf berbicara menurut pandangannya tanpa berusaha menggurui si pemuda. Namun, pandangan dari sang filsuf tersebut justru dapat menjadi pembelajaran bagi pembaca."
+        },
+        {
+            "id": 2,
+            "image": "/assets/img/books/the-psychology-of-money.jpg",
+            "name": "The Psychology of Money",
+            "bookAuthor": "Morgan Housel",
+            "category" : "Self Improvment",
+            "penerbit": "Gramedia Pustaka Utama",
+            "tahunTerbit": 2019,
+            "bahasa": "Indonesia",
+            "halaman": 350,
+            "bookDescription": ""
+        },
+        {
+            "id": 3,
+            "image": "/assets/img/books/the-subtle-art-of-not-giving-a-fuck.jpg",
+            "name": "Sebuah Seni untuk Bersikap Bodo Amat",
+            "bookAuthor": "Mark Manson",
+            "category" : "Self Improvment",
+            "bookDescription": ""
+        },
+        {
+            "id": 4,
+            "image": "/assets/img/books/filosofi-teras.jpg",
+            "name": "Filosofi Teras",
+            "bookAuthor": "Henry Manampiring",
+            "category" : "Self Improvment",
+            "bookDescription": ""
+        },
+        {
+            "id": 5,
+            "image": "/assets/img/books/rich-dad-poor-dad.jpg",
+            "name": "Rich Dad Poor Dad",
+            "bookAuthor": "Robert T. Kiyosaki",
+            "category" : "Self Improvment",
+            "bookDescription": ""
+        },
+        {
+            "id": 6,
+            "image": "/assets/img/books/good-vibes-good-life.jpg",
+            "name": "Good Vibes. Good Life",
+            "bookAuthor": "Vex King",
+            "category" : "Self Improvment",
+            "bookDescription": ""
+        },
+        {
+            "id": 7,
+            "image": "/assets/img/books/atomic-habits.jpg",
+            "name": "Atomic Habis",
+            "bookAuthor": "James Clear",
+            "category" : "Self Improvment",
+            "pdf":"/assets/pdf/Atomic-Habits.pdf",
+            "bookDescription": ""
+        }
+    ]
+}

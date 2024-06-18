@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lido</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/nav.css">
+
+    <!-- FeatherIcons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="/">LIDO</a></div>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="/" class="nav-link">Beranda</a></li>
+            <li class="nav-item"><a href="/daftarBuku" class="nav-link">Daftar Buku</a></li>
+        </ul>
+        <div class="menu">
+            <a href="/login" class="menu-link login">Masuk</a>
+            <a href="/signUp" class="menu-link signup">Daftar</a>
+            <a href="#0" class="profileddtrigger"><img src="../assets/img/logo.png" /></a>
+        </div>
+        <div class="ddcontainer profiledd">
+            <a href="/profile" class="ddheader">
+                <img src="../assets/img/logo.png" />
+                <h5 class="ddname">Kuroko Tetsuya</h5>
+                <span class="ddtitle">Front End Dev</span>
+            </a>
+            <nav class="ddnav">
+                <a href="./profile" class="profile"><i data-feather="user"></i><span>Profile</span></a>
+                <a href="#" class="log-out"><i data-feather="log-out"></i><span>Keluar</span></a>
+            </nav>
+        </div>
+    </nav>
+
+    <main id="hero" class="hero">
+        <div>
+            <h1>Membaca membawa kita ke tempat-tempat yang belum pernah kita kunjungi sebelumnya.</h1>
+            <h2>Selamat datang di perpustakaan kami.</h2>
+        </div>
+    </main>
+
+    <main id="home" class="home">
+        <div class="container">
+            <div class="content populer">
+                <h1>Populer</h1>
+                <a href="/daftarBuku" class="btn-all">
+                    <span>Semua</span>
+                </a>
+                <div id="list" class="list">
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main id="contact" class="contact">
+        <div class="container">
+            <div class="content">
+                <!-- form contact -->
+                <form id="contact-form" action="" method="post">
+                    <h3>Kontak kami</h3>
+                    <h4>Hubungi kami jika ada pertanyaan terkait perpustakaan.</h4>
+                    <ul>
+                        <li>
+                            <input placeholder="Your name" type="text" tabindex="1" required>
+                        </li>
+                        <li>
+                            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                        </li>
+                        <li>
+                            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3">
+                        </li>
+                        <li>
+                            <textarea placeholder="Type your message here...." tabindex="4" required></textarea>
+                        </li>
+                        <li>
+                            <button name="submit" type="submit" id="contact-submit"
+                                data-submit="...Sending">Submit</button>
+                        </li>
+                    </ul>
+                </form>
+
+                <!-- end form contact -->
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>Copyright &copy; 2020 Lido. All rights reserved.</p>
+    </footer>
+
+
+    <script src="../js/script.js"></script>
+    <script src="../js/renderer.js"></script>
+
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings | LIDO </title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/editProfile.css">
+
+    <!-- FeatherIcons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="./index.html">LIDO</a></div>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="./index.html" class="nav-link">Beranda</a></li>
+            <li class="nav-item"><a href="./daftarBuku.html" class="nav-link">Daftar Buku</a></li>
+        </ul>
+        <div class="menu">
+            <a href="#" class="favorite"><i data-feather="bookmark"></i></a>
+            <a href="./login.html" class="menu-link login">Masuk</a>
+            <a href="./signUp.html" class="menu-link signup">Daftar</a>
+            <a href="#0" class="profileddtrigger"><img src="../../assets/img/logo.png" /></a>
+        </div>
+        <div class="ddcontainer profiledd">
+            <a href="./profile.html" class="ddheader">
+                <img src="../../assets/img/logo.png" />
+                <h5 class="ddname">Kuroko Tetsuya</h5>
+                <span class="ddtitle">Front End Dev</span>
+            </a>
+            <nav class="ddnav">
+                <a href="./profile.html" class="profile"><i data-feather="user"></i><span>Profile</span></a>
+                <a href="#" class="settings"><i data-feather="log-out"></i><span>Keluar</span></a>
+            </nav>
+        </div>
+    </nav>
+
+    <main id="settings" class="setting">
+        <div class="container">
+            <div class="content">
+                <form id="settings-form" action="" method="post">
+                    <h3>Edit Profil</h3>
+                    <ul>
+                        <li>
+                            <label for="name">Foto</label>
+                            <input placeholder="Nama" width="150px" name="name" type="file" tabindex="1" >
+                        </li>
+                        <li>
+                            <label for="name">Nama</label>
+                            <input placeholder="Nama" name="name" type="text" tabindex="2" autofocus>
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input placeholder="Email" name="email" type="email" tabindex="3">
+                        </li>
+                        <li>
+                            <label for="bio">Bio</label>
+                            <input placeholder="Bio" name="bio" type="text" tabindex="4">
+                        </li>
+                        <li>
+                            <button name="submit" type="submit" id="setting-submit"
+                                data-submit="...Sending">Simpan perubahan</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    
+    <script src="../js/script.js"></script>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>

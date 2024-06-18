@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+:root {
+    --black: #000;
+    --aliceBlue: #F0F8FF;
+    --blue: #0057FF;
+    --lightBlue: #5D94FF;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#hero {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url('../assets/img/bg.jpg') no-repeat center / cover;
+    /* border-image: fill 0 linear-gradient(#0003, #000); */
+}
+
+#hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.77);
+    z-index: 1;
+}
+
+#hero div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+}
+
+#hero div h1 {
+    color: var(--blue);
+    font-family: "Dancing Script", cursive;
+    font-size: 36px;
+    text-align: center;
+    width: 50vw;
+    text-shadow: 3px 3px 7px rgba(190, 190, 190, 0.6);
+}
+
+#hero div h2 {
+    margin-top: 50px;
+    display: block;
+    color: var(--blue);
+    text-shadow: 3px 3px 7px rgba(190, 190, 190, 0.6);
+    font-size: 28px;
+}
+
+#home {
+    margin-top: 20px;
+    padding: 7px 21px;
+}
+
+#home .content .btn-all {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--blue);
+    color: #FFF;
+    font-size: 12px;
+    padding: 3px 7px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .content .btn-all:hover {
+    background-color: var(--lightBlue);
+    color: #000;
+}
+
+#contact {
+    margin-top: 21px;
+}
+
+/* #contact h1{
+    left: 45%;
+    text-align: center;
+} */
+
+#contact .content {
+    flex-direction: column;
+}
+
+#contact form {
+    width: 50%;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact h3 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#contact ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact #contact-form li {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact textarea:hover {
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #400aaa;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    background: var(--blue);
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: var(--lightBlue);
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #400aaa;
+}
