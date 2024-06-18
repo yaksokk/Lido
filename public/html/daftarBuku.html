@@ -45,16 +45,17 @@
                 <div class="filter">
                     <div class="search">
                         <i data-feather="search"></i>
-                        <input type="search" placeholder="Cari buku...">
+                        <input type="search" id="searchInput" placeholder="Cari buku...">
                     </div>
                     <ul class="filter-menu">
-                        <li class="filter-item"><a href="#" data-filter=".design">Economics</a></li>
-                        <li class="filter-item"><a href="#">Novel</a></li>
-                        <li class="filter-item"><a href="#">Self Improvment</a></li>
+                        <li class="filter-item"><a href="#" data-filter="Self Improvment">Self Improvement</a></li>
+                        <li class="filter-item"><a href="#" data-filter="Economics">Economics</a></li>
+                        <li class="filter-item"><a href="#" data-filter="Novel">Novel</a></li>
                     </ul>
                 </div>
                 <div id="list" class="list">
                 </div>
+                <div id="searchResults" class="search-results"></div>
             </div>
         </div>
     </div>
@@ -68,6 +69,7 @@
 
     <script src="../js/script.js"></script>
     <script src="../js/renderer.js"></script>
+    <script src="../js/searchBook.js"></script>
 
     <script>
         feather.replace();

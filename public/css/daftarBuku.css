@@ -93,3 +93,16 @@
     justify-content: center;
 }
 
+.search-results {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    overflow-x: auto;
+    padding: 21px;
+    margin-top: 28px;
+    flex-wrap: wrap;
+}
+
+
+
+
